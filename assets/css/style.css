@@ -1,57 +1,62 @@
-/*Esttilos da página inde.html*/
+/*Estilos da página index.html*/
 .center {
     text-align: center;
-}
-
-.justify{
-    text-align-last: justify;
-}
-
-.container{
-display: flex;
-flex-flow: row;
-justify-content: center;
-align-items: center;
-}
-
-#menu li{
-    display:inline ;
-    padding: 40px;
+ }
+ 
+ .justify{
+    text-align: justify;
+ }
+ 
+ .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+ }  
+ 
+ #menu li {
+    display: inline;
+    padding: 15px;
     
-
-}
-
-#menu li a{
-    text-decoration: nome;
-    color: black;
+ }
+ 
+ #menu li a {
+    text-decoration: none;
+    color: #546de5;
     font-size: 20px;
-}
-
-#menu li a:hover{
-    color: gray;
-    
-}
-
-.p-30 {
+ }
+ 
+ #menu li a:hover {
+    color: grey;
+ }
+ 
+ .p-30 {
     padding: 30px;
-}
-
-
-.br-50 {
+ }
+ 
+ .br-50 {
     border-radius: 50%;
-}
-.wh{
-    width: 500px;
-    height: 400px;
-}
-
-.tamanho {
-    width: 40px;
-    height: 40px;
-}
-
-.mb-50{
+ }
+ 
+ .wh-300{
+    width: 300px;
+    height: 300px;
+ 
+ }
+ 
+ .tm-social {
+    width: 50px;
+    height: 50px;
+ }
+ 
+ .mb-50{
     margin-bottom: 50px;
-}
-
-/*Estilos da página contato*/
+ }
+ 
+ 
+ 
+ /*Estilos da página contato.html*/
+ 
+ .ml-50 {
+    margin-left: 50px;
+ }
